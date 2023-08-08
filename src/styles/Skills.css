@@ -1,0 +1,38 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.skill input {
+  flex: 1;
+  max-width: 150px;
+  text-align: center;
+  border-bottom: 1px solid #213547;
+  padding-right: 20px;
+}
+
+.skill button {
+  color: #969696;
+  position: absolute;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: none;
+}
+
+.skill button:focus {
+  outline: none;
+}
+
+.skill button:hover {
+  color: #213547;
+} 

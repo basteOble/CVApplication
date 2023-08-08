@@ -1,0 +1,21 @@
+.section-header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin: 15px 0;
+  position: relative;
+  gap: 10px;
+}
+
+.section-header div {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header div:nth-child(2) input {
+  text-align: right;
+}
+
+.section-header div input:nth-child(2) {
+  font-style: italic;
+}
